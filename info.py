@@ -68,16 +68,16 @@ COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "/")
 DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
 
 
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shorturllink.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', '973a78409424fc98d61399e41a1aa90ba0199e10')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'tinyfy.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', '055056697b8fa8d08a3d7681f4e7ed36222d8235')
 
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
 # SHORTLINK_URL = environ.get('SHORTLINK_URL', 'http://TinyFy.in')
 # SHORTLINK_API = environ.get('SHORTLINK_API', '5f301bd41650cf7f64b9e7434fef3b7c973918df')
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
-NO_RESULTS_MSG = bool(environ.get('NO_RESULTS_MSG', False))
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
+NO_RESULTS_MSG = bool(environ.get('NO_RESULTS_MSG', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "7")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "False")), False)
