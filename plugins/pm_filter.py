@@ -870,11 +870,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         reply_markup=InlineKeyboardMarkup(
                              [
                                 [
-                                     InlineKeyboardButton('📤𝐉𝐨𝐢𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥📤', url="https://t.me/+7oxSIxY4X0c2ZGVl")
+                                     InlineKeyboardButton('📤Ｍᴏᴠɪᴇ 𝙶ʀᴏᴜᴘ📤', url="https://t.me/hb_moive")
                                  ],
                                  [
-                                 InlineKeyboardButton('🧩𝐔𝐩𝐝𝐚𝐭𝐞🧩', url="https://t.me/bigmoviesworld"),
-                                 InlineKeyboardButton('☘𝐒𝐮𝐩𝐩𝐨𝐫𝐭☘', url="https://t.me/NasraniChatGroup")
+                                 InlineKeyboardButton('🧑‍💻 Oᴡɴᴇʀ', url="https://t.me/Hariomsingh31u"),
+                                 InlineKeyboardButton('💡 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url="https://t.me/naruto_support_ch")
                                  ]                            
                              ]
                          )
