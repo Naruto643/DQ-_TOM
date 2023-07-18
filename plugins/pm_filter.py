@@ -1663,7 +1663,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('💡 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://t.me/naruto_support_ch')
         ], [
             InlineKeyboardButton('♻️ Hᴇʟᴘ ♻️', callback_data='help'),        
-            InlineKeyboardButton('💠 Aʙᴏᴜᴛ 💠', callback_data='about)          
+            InlineKeyboardButton('💠 Aʙᴏᴜᴛ 💠', callback_data='about')          
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
