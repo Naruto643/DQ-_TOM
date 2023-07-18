@@ -30,7 +30,9 @@ async def start(client, message):
         ],[
             InlineKeyboardButton('𝐌𝐨𝐯𝐢𝐞𝐬 𝐆𝐫𝐨𝐮𝐩', url='https://t.me/hb_moive'),
             InlineKeyboardButton('𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url='https://t.me/naruto_update_ch')
-        ]]
+        ],[
+            InlineKeyboardButton('💰𝙴ᴀʀɴ 𝙼ᴏɴᴇʏ 𝚆ɪᴛʜ 𝙱ᴏᴛ 💸', callback_data='dash')
+            ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         reply_markup = InlineKeyboardMarkup(buttons)
         k = await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup)
@@ -53,7 +55,9 @@ async def start(client, message):
         ], [
             InlineKeyboardButton('♻️ Hᴇʟᴘ ♻️', callback_data='help'),        
             InlineKeyboardButton('💠 Aʙᴏᴜᴛ 💠', callback_data='about')          
-        ]]
+        ],[
+            InlineKeyboardButton('💰𝙴ᴀʀɴ 𝙼ᴏɴᴇʏ 𝚆ɪᴛʜ 𝙱ᴏᴛ 💸', callback_data='dash')
+            ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
@@ -99,7 +103,9 @@ async def start(client, message):
         ], [
             InlineKeyboardButton('♻️ Hᴇʟᴘ ♻️', callback_data='help'),        
             InlineKeyboardButton('💠 Aʙᴏᴜᴛ 💠', callback_data='about')          
-        ]]
+        ],[
+            InlineKeyboardButton('💰𝙴ᴀʀɴ 𝙼ᴏɴᴇʏ 𝚆ɪᴛʜ 𝙱ᴏᴛ 💸', callback_data='dash')
+            ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
