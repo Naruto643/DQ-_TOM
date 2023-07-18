@@ -28,8 +28,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ],[
-            InlineKeyboardButton('𝐌𝐨𝐯𝐢𝐞𝐬 𝐆𝐫𝐨𝐮𝐩', url='https://t.me/nasrani_update'),
-            InlineKeyboardButton('𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url='https://t.me/bigmoviesworld')
+            InlineKeyboardButton('𝐌𝐨𝐯𝐢𝐞𝐬 𝐆𝐫𝐨𝐮𝐩', url='https://t.me/hb_moive'),
+            InlineKeyboardButton('𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url='https://t.me/naruto_update_ch')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -48,17 +48,12 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [                    
-            InlineKeyboardButton('𝐔𝐩𝐝𝐚𝐭𝐞', url='https://t.me/bigmoviesworld'),
-            InlineKeyboardButton('𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url='https://t.me/NasraniChatGroup')
+            InlineKeyboardButton('🧑‍💻 Oᴡɴᴇʀ', callback_data= "owner_info"),
+            InlineKeyboardButton('💡 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://t.me/naruto_support_ch')
         ], [
-            InlineKeyboardButton('𝐃𝐞𝐭𝐚𝐢𝐥𝐬', url='http://telegra.ph/Minnal-murali-03-06-12'),        
-            InlineKeyboardButton('𝐇𝐞𝐥𝐩', callback_data='help')          
+            InlineKeyboardButton('♻️ Hᴇʟᴘ ♻️', callback_data='help'),        
+            InlineKeyboardButton('💠 Aʙᴏᴜᴛ 💠', callback_data='about')          
         ], [
-            InlineKeyboardButton('𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩', url='https://t.me/nasrani_update')
-        ], [
-            InlineKeyboardButton('𝐈𝐧𝐥𝐢𝐧𝐞', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('𝐒𝐞𝐭𝐭𝐢𝐧𝐠𝐬', callback_data=f"setting")
-        ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
@@ -99,17 +94,12 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [                    
-            InlineKeyboardButton('𝐔𝐩𝐝𝐚𝐭𝐞', url='https://t.me/bigmoviesworld'),
-            InlineKeyboardButton('𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url='https://t.me/NasraniChatGroup')
+            InlineKeyboardButton('🧑‍💻 Oᴡɴᴇʀ', callback_data= "owner_info"),
+            InlineKeyboardButton('💡 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://t.me/naruto_support_ch')
         ], [
-            InlineKeyboardButton('𝐃𝐞𝐭𝐚𝐢𝐥𝐬', url='http://telegra.ph/Minnal-murali-03-06-12'),        
-            InlineKeyboardButton('𝐇𝐞𝐥𝐩', callback_data='help')          
-        ], [
-            InlineKeyboardButton('𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩', url='https://t.me/nasrani_update')
-        ], [
-            InlineKeyboardButton('𝐈𝐧𝐥𝐢𝐧𝐞', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('𝐒𝐞𝐭𝐭𝐢𝐧𝐠𝐬', callback_data=f"setting")
-        ]]
+            InlineKeyboardButton('♻️ Hᴇʟᴘ ♻️', callback_data='help'),        
+            InlineKeyboardButton('💠 Aʙᴏᴜᴛ 💠', callback_data='about')          
+        ], [ 
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
@@ -639,7 +629,7 @@ async def settings(client, message):
         ]
 
         btn = [[
-            InlineKeyboardButton('𝐉𝐨𝐢𝐧 𝐆𝐫𝐨𝐮𝐩', url=f'http://t.me/nasrani_update')
+            InlineKeyboardButton('𝐉𝐨𝐢𝐧 𝐆𝐫𝐨𝐮𝐩', url=f'https://t.me/hb_moive')
         ], [
             InlineKeyboardButton("Oᴘᴇɴ Hᴇʀᴇ ↓", callback_data=f"opnsetgrp#{grp_id}"),
             InlineKeyboardButton("Oᴘᴇɴ Iɴ PM ⇲", callback_data=f"opnsetpm#{grp_id}")
