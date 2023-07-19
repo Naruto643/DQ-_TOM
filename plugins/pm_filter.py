@@ -3291,8 +3291,8 @@ async def advantage_spell_chok(client, msg):
 
 #    btn.append([f"⚠️𝐂𝐥𝐨𝐬𝐞 𝐒𝐞𝐚𝐫𝐜𝐡⚠️", callback_data="close_data", False])        
     btn.insert(0, [
-        InlineKeyboardButton("𝐌𝐨𝐯𝐢𝐞𝐬 𝐆𝐫𝐨𝐮𝐩", url="https://t.me/NasraniSeries"),
-        InlineKeyboardButton("𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url="https://t.me/bigmoviesworld")
+        InlineKeyboardButton("𝐌𝐨𝐯𝐢𝐞𝐬 𝐆𝐫𝐨𝐮𝐩", url="https://t.me/hb_moive"),
+        InlineKeyboardButton("𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url="https://t.me/naruto_update_ch")
     ])
 
 #    btn.insert(5, [
