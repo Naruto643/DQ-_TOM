@@ -221,7 +221,7 @@ Nᴀᴍᴇ - {}"""
 
 ❍ sɪᴢᴇ : {file_size}"""
 
-    IMDB_TEMPLATE_TXT = """
+    IMDB_TEMPLATE_TXT = """<b>
 🔰 ᴛɪᴛʟᴇ : {title}
 👻 ʀᴇqᴜᴇꜱᴛᴇᴅ ʙy : {message.from_user.mention}
 🌧️ ᴛᴏᴛᴀʟ ꜰɪʟᴇꜱ : 694
@@ -607,33 +607,24 @@ Tʜɪs ᴍᴏᴅᴜʟᴇ ɪs ᴛᴏ ғɪɴᴅ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙ�
 
 
     IMDB_TEMPLATE_TXT = """
-<b>𝐇𝐞𝐲 {message.from_user.mention}, 𝐇𝐞𝐫𝐞 𝐢𝐬 𝐭𝐡𝐞 𝐫𝐞𝐬𝐮𝐥𝐭 𝐟𝐨𝐫 𝐲𝐨𝐮𝐫 {query}
+<b>🔰 ᴛɪᴛʟᴇ : {title}
+👻 ʀᴇqᴜᴇꜱᴛᴇᴅ ʙy : {message.from_user.mention}
+🌧️ ᴛᴏᴛᴀʟ ꜰɪʟᴇꜱ : {total_files}
 
-🏷 𝐓𝐢𝐭𝐥𝐞 : {title}
-🎭 𝐆𝐞𝐧𝐫𝐞𝐬 : {genres}
-🌟 𝐑𝐚𝐭𝐢𝐧𝐠 : {rating}
-☀️ 𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞𝐬 : {languages}
-📀 𝐑𝐮𝐧𝐓𝐢𝐦𝐞 : {runtime}
-📆 𝐑𝐞𝐥𝐞𝐚𝐬𝐞 𝐈𝐧𝐟𝐨 : {year}
-🎛 𝐂𝐨𝐮𝐧𝐭𝐫𝐢𝐞𝐬 : {countries}
+⚠️ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇᴅ ᴀꜰᴛᴇʀ 10 ᴍɪɴᴜᴛᴇꜱ.
 
-𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 {message.chat.title}</b>
+• ꜱᴇʟᴇᴄᴛ yᴏᴜʀ ʟᴀɴɢᴜᴀɢᴇꜱ •</b>
 """
 
     BR_TEMPLATE_TXT = """
 
-<b>𝐇𝐞𝐲 {title} 𝐌𝐨𝐯𝐢𝐞 𝐀𝐝𝐝𝐞𝐝 𝐓𝐡𝐢𝐬 𝐆𝐫𝐨𝐮𝐩...
+<b>🔰 ᴛɪᴛʟᴇ : {title}
+👻 ʀᴇqᴜᴇꜱᴛᴇᴅ ʙy : {message.from_user.mention}
+🌧️ ᴛᴏᴛᴀʟ ꜰɪʟᴇꜱ : {total_files}
 
-🏷 𝐓𝐢𝐭𝐥𝐞 : {title}
-🎭 𝐆𝐞𝐧𝐫𝐞𝐬 : {genres}
-🌟 𝐑𝐚𝐭𝐢𝐧𝐠 : {rating}
-☀️ 𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞𝐬 : {languages}
-📀 𝐑𝐮𝐧𝐓𝐢𝐦𝐞 : {runtime}
-📆 𝐑𝐞𝐥𝐞𝐚𝐬𝐞 𝐈𝐧𝐟𝐨 : {year}
-🎛 𝐂𝐨𝐮𝐧𝐭𝐫𝐢𝐞𝐬 : {countries}
+⚠️ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇᴅ ᴀꜰᴛᴇʀ 10 ᴍɪɴᴜᴛᴇꜱ.
 
-<i>{title} ᴀɢᴀʀ ᴀᴀᴘ ɢʀᴏᴜᴘ ᴍᴇɪɴ ꜱʜᴀᴀᴍɪʟ ʜᴏɴᴀ ᴄʜᴀᴀʜᴀᴛᴇ ʜᴀɪɴ ᴛᴏ ᴀʙʜᴇᴇ ᴅᴇᴋʜᴇɴ ʙᴜᴛᴛᴏɴ ᴘᴀʀ ᴄʟɪᴄᴋ ᴋᴀʀᴇɴ..</i>
-𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 ©𝐇ᴀʀɪᴏᴍ 𝐒ɪɴɢʜ</b>"""
+• ꜱᴇʟᴇᴄᴛ yᴏᴜʀ ʟᴀɴɢᴜᴀɢᴇꜱ •</b>"""
 
 
 
