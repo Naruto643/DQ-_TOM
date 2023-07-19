@@ -31,7 +31,7 @@ async def start(client, message):
             InlineKeyboardButton('𝐌𝐨𝐯𝐢𝐞𝐬 𝐆𝐫𝐨𝐮𝐩', url='https://t.me/hb_moive'),
             InlineKeyboardButton('𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url='https://t.me/naruto_update_ch')
         ],[
-            InlineKeyboardButton('💰𝙴ᴀʀɴ 𝙼ᴏɴᴇʏ 𝚆ɪᴛʜ 𝙱ᴏᴛ 💸', callback_data='dash')
+            InlineKeyboardButton('💰𝙴ᴀʀɴ 𝙼ᴏɴᴇʏ 𝚆ɪᴛʜ 𝙱ᴏᴛ 💸', callback_data='earn_txt')
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -56,7 +56,7 @@ async def start(client, message):
             InlineKeyboardButton('♻️ Hᴇʟᴘ ♻️', callback_data='help'),        
             InlineKeyboardButton('💠 Aʙᴏᴜᴛ 💠', callback_data='about')          
         ],[
-            InlineKeyboardButton('💰𝙴ᴀʀɴ 𝙼ᴏɴᴇʏ 𝚆ɪᴛʜ 𝙱ᴏᴛ 💸', callback_data='dash')
+            InlineKeyboardButton('💰𝙴ᴀʀɴ 𝙼ᴏɴᴇʏ 𝚆ɪᴛʜ 𝙱ᴏᴛ 💸', callback_data='earn_txt')
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -104,7 +104,7 @@ async def start(client, message):
             InlineKeyboardButton('♻️ Hᴇʟᴘ ♻️', callback_data='help'),        
             InlineKeyboardButton('💠 Aʙᴏᴜᴛ 💠', callback_data='about')          
         ],[
-            InlineKeyboardButton('💰𝙴ᴀʀɴ 𝙼ᴏɴᴇʏ 𝚆ɪᴛʜ 𝙱ᴏᴛ 💸', callback_data='dash')
+            InlineKeyboardButton('💰𝙴ᴀʀɴ 𝙼ᴏɴᴇʏ 𝚆ɪᴛʜ 𝙱ᴏᴛ 💸', callback_data='earn_txt')
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
